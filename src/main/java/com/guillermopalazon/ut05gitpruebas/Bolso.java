@@ -8,8 +8,20 @@ package com.guillermopalazon.ut05gitpruebas;
  *
  * @author Guillermo
  */
-public class NombreCortoException extends RuntimeException {
-    public String getMessage(){
-        return "El nombre es muy corto";
+public class Bolso {
+    private String codigo;
+
+    public Bolso(String codigo) {
+        this.codigo = codigo;
     }
+
+    public String getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(String codigo) {
+        this.codigo = codigo;
+    }
+    
+    
 }
