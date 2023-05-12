@@ -10,4 +10,5 @@ package com.guillermopalazon.ut05gitpruebas;
  */
 public class Zapato {
     private int numero;
+    private String marca;
 }
