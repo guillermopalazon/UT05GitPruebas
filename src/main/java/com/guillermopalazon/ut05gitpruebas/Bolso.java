@@ -11,6 +11,7 @@ package com.guillermopalazon.ut05gitpruebas;
 public class Bolso {
     private String codigo;
     private String marca;
+    private int numeroBolso;
 
     public Bolso(String codigo) {
         this.codigo = codigo;
