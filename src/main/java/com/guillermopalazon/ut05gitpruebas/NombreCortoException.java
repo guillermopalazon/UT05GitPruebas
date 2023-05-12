@@ -10,6 +10,6 @@ package com.guillermopalazon.ut05gitpruebas;
  */
 public class NombreCortoException extends RuntimeException {
     public String getMessage(){
-        return "El nombre es muy corto";
+        return "El nombre es muy corto, hasta luego";
     }
 }
