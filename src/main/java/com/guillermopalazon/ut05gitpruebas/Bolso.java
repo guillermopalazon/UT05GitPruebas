@@ -10,11 +10,13 @@ package com.guillermopalazon.ut05gitpruebas;
  */
 public class Bolso {
     private String codigo;
-    private String marca;
+    private MarcasBolso marca;
     private int numeroBolso;
-
-    public Bolso(String codigo) {
+    
+    public Bolso(String codigo, MarcasBolso marca, int numeroBolso) {
         this.codigo = codigo;
+        this.marca = marca;
+        this.numeroBolso = numeroBolso;
     }
 
     public String getCodigo() {
