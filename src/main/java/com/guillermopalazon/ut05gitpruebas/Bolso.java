@@ -27,5 +27,9 @@ public class Bolso {
         this.codigo = codigo;
     }
     
+    public void muestraInfo(){
+        System.out.println("Hola");
+    }
+    
     
 }
