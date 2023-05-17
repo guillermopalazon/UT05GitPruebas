@@ -31,5 +31,9 @@ public class Bolso {
         System.out.println("Hola");
     }
     
+    public void muestraResumen(){
+        System.out.println("Adiós");
+    }
+    
     
 }
